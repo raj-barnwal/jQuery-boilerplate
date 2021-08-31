@@ -1,0 +1,46 @@
+$black: #000;
+$white: #fff;
+$red: #f00;
+$font-default-color: #293856;
+$light-font: #898888;
+$themeColor: #414141;
+$lightGrey: #f7f7f7;
+$darkGrey: #707070;
+$labelColor: #939393;
+$borderColor: #d3d3d3;
+$primary-color: #111892;
+$secondary-color: #5c967e;
+
+
+$primary_palette: (
+  50: #e9f8f8,
+  100: #bdebeb,
+  200: #a7e5e5,
+  300: #7ad7d7,
+  400: #4ecaca,
+  500: #22bdbd, // default
+  600: #1b9797,
+  700: #147171,
+  800: #0e4c4c,
+  900: #031313,
+  default: #22bdbd
+);
+
+$gray: (
+  50: #fcfcfc,
+  100: #f9f9f9,
+  200: #edeeef,
+  300: #e4e6e8,
+  400: #cacdd1,
+  500: #a3a5a7,
+  600: #7a7b7d,
+  700: #656769,
+  800: #464849,
+  900: #252628,
+  default: #a3a5a7,
+);
+
+.abcd {
+  color: map-get($primary_palette, 500);
+}
+

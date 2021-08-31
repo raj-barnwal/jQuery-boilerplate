@@ -1,0 +1,53 @@
+@import "mixin";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+  color: $font-default-color;
+  font: 14px/1.33 "RobotoRegular", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a,
+i,
+span,
+label,
+strong {
+  display: inline-block;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+ul {
+  padding-left: 0;
+}
+
+a,
+input,
+button,
+textarea {
+  outline: none;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+a {
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+strong {
+  font-family: RobotoBold, sans-serif;
+}
